@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "updated": "2026-07-20",
+  "downloadBase": "https://github.com/YOUR-GH-USER/reelskillz-releases/releases/download",
+  "products": [
+    {
+      "id": "film-lite",
+      "name": "ReelSkillz Film Lite",
+      "tagline": "The free film look — clean, natural, ready to grade.",
+      "accent": "#6ea8fe",
+      "free": true,
+      "version": "1.1.0",
+      "releaseDate": "2026-07-15",
+      "releaseNotes": "Refined highlight rolloff and a faster grain path. Same look, less noise on export.",
+      "lsProduct": null,
+      "mac": {
+        "path": "plugins/ReelSkillz-Film-Lite-v1.1-macOS.zip",
+        "sha256": "3b307faf662bd5feb35f6047ca3463f85ccf08225970eb022f267d782006a734",
+        "size": 6884940,
+        "install": "bundle",
+        "pkgId": "com.reelskillz.filmlite",
+        "bundle": "ReelSkillz Film Lite.ofx.bundle"
+      },
+      "win": {
+        "path": "plugins/ReelSkillz-Film-Lite-v1.1-Windows-x64.zip",
+        "sha256": "b1ef8e92b1088cc5703b72dcbe48424b05cfd3cdb63ce68ce98183ece283b64a",
+        "size": 7184747,
+        "install": "bundle",
+        "bundle": "ReelSkillz Film Lite.ofx.bundle"
+      }
+    },
+    {
+      "id": "film-pro",
+      "name": "ReelSkillz Film Pro",
+      "tagline": "The full film-grade engine — 16 parameters, two looks, LUT export.",
+      "accent": "#f5a524",
+      "free": false,
+      "version": "1.1.0",
+      "releaseDate": "2026-07-15",
+      "releaseNotes": "Adds the Cinematic 2383 look alongside Clean Natural, plus on-set LUT export.",
+      "lsProduct": "ReelSkillzFilmPro",
+      "mac": {
+        "path": "plugins/ReelSkillz-Film-Pro-v1.1-macOS.zip",
+        "sha256": "8a2880e8057066e5a81c57ade7ccc2e8ea5fe476223b552e3ab5fe73d5475923",
+        "size": 14261831,
+        "install": "bundle",
+        "pkgId": "com.reelskillz.filmpro",
+        "bundle": "ReelSkillz Film Pro.ofx.bundle"
+      },
+      "win": {
+        "path": "plugins/ReelSkillz-Film-Pro-v1.1-Windows-x64.zip",
+        "sha256": "baa2c6567f89a6c593379a6f78d4e57d8828ca7369c369a3b62a9141d758e24b",
+        "size": 14566210,
+        "install": "bundle",
+        "bundle": "ReelSkillz Film Pro.ofx.bundle"
+      }
+    },
+    {
+      "id": "skin",
+      "name": "ReelSkillz Skin",
+      "tagline": "Detect, grade, heal and soften skin — free, no licence needed.",
+      "accent": "#f472b6",
+      "free": true,
+      "version": "1.0.0",
+      "releaseDate": "2026-07-19",
+      "releaseNotes": "First public release. Detection, grading, healing and softening in one node.",
+      "lsProduct": "ReelSkillzSkinPro",
+      "mac": {
+        "path": "plugins/ReelSkillz-Skin-v1.0-macOS.zip",
+        "sha256": "0ee0b6160b568ca5b70cd74672b93831c89b8263d981b8b0528d71f7ee433175",
+        "size": 178775,
+        "install": "bundle",
+        "pkgId": "com.reelskillz.skinpro",
+        "bundle": "ReelSkillz Skin.ofx.bundle"
+      },
+      "win": {
+        "path": "plugins/ReelSkillz-Skin-v1.0-Windows-x64.zip",
+        "sha256": "8d55d232371d35472cbebbd953250fc319e699656e709b9d48b9109ad71e4e8f",
+        "size": 452797,
+        "install": "bundle",
+        "bundle": "ReelSkillz Skin.ofx.bundle"
+      }
+    }
+  ]
+}
