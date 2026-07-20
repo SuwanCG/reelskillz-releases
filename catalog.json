@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "updated": "2026-07-20",
-  "downloadBase": "https://github.com/YOUR-GH-USER/reelskillz-releases/releases/download",
+  "downloadBase": "https://github.com/SuwanCG/reelskillz-releases/releases/download",
   "products": [
     {
       "id": "film-lite",
