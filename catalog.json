@@ -15,8 +15,8 @@
       "lsProduct": null,
       "mac": {
         "path": "plugins/ReelSkillz-Film-Lite-v1.1-macOS.zip",
-        "sha256": "3b307faf662bd5feb35f6047ca3463f85ccf08225970eb022f267d782006a734",
-        "size": 6884940,
+        "sha256": "a66a268436a1ccd20f0eb2413a2f72227dbd10f1e9f49f7949d8bf50d924d6d3",
+        "size": 6882189,
         "install": "bundle",
         "pkgId": "com.reelskillz.filmlite",
         "bundle": "ReelSkillz Film Lite.ofx.bundle"
@@ -35,22 +35,22 @@
       "tagline": "The full film-grade engine — 16 parameters, two looks, LUT export.",
       "accent": "#f5a524",
       "free": false,
-      "version": "1.1.0",
-      "releaseDate": "2026-07-15",
-      "releaseNotes": "Adds the Cinematic 2383 look alongside Clean Natural, plus on-set LUT export.",
+      "version": "1.2.0",
+      "releaseDate": "2026-07-20",
+      "releaseNotes": "Licensing moved into ReelSkillz Manager — no more pasting a key into Resolve. The plugin now just shows an About panel with its licence state.",
       "lsProduct": "ReelSkillzFilmPro",
       "mac": {
-        "path": "plugins/ReelSkillz-Film-Pro-v1.1-macOS.zip",
-        "sha256": "8a2880e8057066e5a81c57ade7ccc2e8ea5fe476223b552e3ab5fe73d5475923",
-        "size": 14261831,
+        "path": "plugins/ReelSkillz-Film-Pro-v1.2-macOS.zip",
+        "sha256": "e0b31208944bbb78efb57a5ccae94007372052778a9feb8c5d165c644f6a39d7",
+        "size": 14254751,
         "install": "bundle",
         "pkgId": "com.reelskillz.filmpro",
         "bundle": "ReelSkillz Film Pro.ofx.bundle"
       },
       "win": {
-        "path": "plugins/ReelSkillz-Film-Pro-v1.1-Windows-x64.zip",
-        "sha256": "baa2c6567f89a6c593379a6f78d4e57d8828ca7369c369a3b62a9141d758e24b",
-        "size": 14566210,
+        "path": "plugins/ReelSkillz-Film-Pro-v1.2-Windows-x64.zip",
+        "sha256": "50888b48022f4e72ed702bbe1384cfdcf912b6d34af38cd9c98d0bd828dae00a",
+        "size": 14564129,
         "install": "bundle",
         "bundle": "ReelSkillz Film Pro.ofx.bundle"
       }
@@ -67,8 +67,8 @@
       "lsProduct": "ReelSkillzSkinPro",
       "mac": {
         "path": "plugins/ReelSkillz-Skin-v1.0-macOS.zip",
-        "sha256": "0ee0b6160b568ca5b70cd74672b93831c89b8263d981b8b0528d71f7ee433175",
-        "size": 178775,
+        "sha256": "c35ce26e9ebd97c808448b1162d0a77d2fa16738bbbef3a3ebb2ea82f5ebe477",
+        "size": 177580,
         "install": "bundle",
         "pkgId": "com.reelskillz.skinpro",
         "bundle": "ReelSkillz Skin.ofx.bundle"
