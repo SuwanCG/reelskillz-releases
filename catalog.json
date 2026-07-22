@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "updated": "2026-07-20",
-  "downloadBase": "https://github.com/SuwanCG/reelskillz-releases/releases/download",
+  "updated": "2026-07-22",
+  "downloadBase": "https://reelskillz.com",
   "products": [
     {
       "id": "film-lite",
       "name": "ReelSkillz Film Lite",
-      "tagline": "The free film look — clean, natural, ready to grade.",
+      "tagline": "The free film look \u2014 clean, natural, ready to grade.",
       "accent": "#6ea8fe",
       "free": true,
       "version": "1.1.0",
@@ -32,33 +32,35 @@
     {
       "id": "film-pro",
       "name": "ReelSkillz Film Pro",
-      "tagline": "The full film-grade engine — 16 parameters, two looks, LUT export.",
+      "tagline": "The full film-grade engine \u2014 16 parameters, two looks, LUT export.",
       "accent": "#f5a524",
       "free": false,
-      "version": "1.2.0",
-      "releaseDate": "2026-07-20",
-      "releaseNotes": "Licensing moved into ReelSkillz Manager — no more pasting a key into Resolve. The plugin now just shows an About panel with its licence state.",
+      "version": "1.3.0",
+      "releaseDate": "2026-07-22",
+      "releaseNotes": "Windows GPU acceleration \u2014 the grade + glow now run on the GPU (native CUDA on NVIDIA, OpenCL fallback), so playback is smooth on Windows just like on Mac. Same look on both platforms.",
       "lsProduct": "ReelSkillzFilmPro",
       "mac": {
-        "path": "plugins/ReelSkillz-Film-Pro-v1.2-macOS.zip",
-        "sha256": "e0b31208944bbb78efb57a5ccae94007372052778a9feb8c5d165c644f6a39d7",
-        "size": 14254751,
+        "path": "plugins/ReelSkillz-Film-Pro-v1.3-macOS.zip",
+        "sha256": "7c5e4cdf724b7a4c2f06849f0b8c77f5c01d635f178df776129f5b48504982a7",
+        "size": 14254502,
         "install": "bundle",
         "pkgId": "com.reelskillz.filmpro",
-        "bundle": "ReelSkillz Film Pro.ofx.bundle"
+        "bundle": "ReelSkillz Film Pro.ofx.bundle",
+        "ofxSha256": ""
       },
       "win": {
-        "path": "plugins/ReelSkillz-Film-Pro-v1.2-Windows-x64.zip",
-        "sha256": "50888b48022f4e72ed702bbe1384cfdcf912b6d34af38cd9c98d0bd828dae00a",
-        "size": 14564129,
+        "path": "plugins/ReelSkillz-Film-Pro-v1.3-Windows-x64.zip",
+        "sha256": "f67a7667571fc4d2ee2baa267ee390a1592f262c07c482121a07df33ecd6ccaa",
+        "size": 14956429,
         "install": "bundle",
-        "bundle": "ReelSkillz Film Pro.ofx.bundle"
+        "bundle": "ReelSkillz Film Pro.ofx.bundle",
+        "ofxSha256": ""
       }
     },
     {
       "id": "skin",
       "name": "ReelSkillz Skin",
-      "tagline": "Detect, grade, heal and soften skin — free, no licence needed.",
+      "tagline": "Detect, grade, heal and soften skin \u2014 free, no licence needed.",
       "accent": "#f472b6",
       "free": true,
       "version": "1.0.0",
